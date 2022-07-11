@@ -34,8 +34,9 @@ class Solution:
         # TODO: Write code below to return a bool with the solution to the prompt
         if len(s) > 6:
             for i in range(int(len(s)//2)):
-                if s[i] != s[-i]:
-                    return False
+                if i != int(len(s)//2):
+                    if s[i] != s[-i]:
+                        return False
             return True
         else:
             return False
