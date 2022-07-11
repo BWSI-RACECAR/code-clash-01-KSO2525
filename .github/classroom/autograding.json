@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "racecar",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "314156",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "germanium",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "3145413",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "exacto",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "@!^&^!@",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "pup",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "dad",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "madam",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "nurses run",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
