@@ -32,7 +32,7 @@ class Solution:
     def isPalindrome(self, s):
         
         # TODO: Write code below to return a bool with the solution to the prompt
-        if len(s) >= 6:
+        if len(s) > 6:
             if len(s) % 2 == 0:
                 half_len = int(len(s) / 2)
             else:
