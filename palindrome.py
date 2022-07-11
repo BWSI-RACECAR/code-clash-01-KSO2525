@@ -34,9 +34,9 @@ class Solution:
         # TODO: Write code below to return a bool with the solution to the prompt
         if len(s) >= 6:
             if len(s) % 2 == 0:
-                half_len = len(s) / 2
+                half_len = int(len(s) / 2)
             else:
-                half_len = (len(s) - 1)/2
+                half_len = int((len(s) - 1)/2)
             for i in range(half_len):
                 if s[i] != s[-i]:
                     return False
