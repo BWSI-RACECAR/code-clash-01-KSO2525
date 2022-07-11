@@ -37,7 +37,8 @@ class Solution:
                 if s[i] != s[-i]:
                     return False
             return True
-
+        else:
+            return False
 def main():
     tc1 = Solution()
     inpyt = input()
